@@ -213,7 +213,7 @@
       grid-template-columns: repeat(6, 1fr);
       width: 85%;
       padding-top: 110px;
-      padding-bottom: 30px;
+     
     }
   
     .home-text {
@@ -561,7 +561,6 @@
           gap: 0.2rem;
           width: 85%;
           grid-template-columns: repeat(2, 1fr);
-          padding-bottom: 5%;
       }
       
       .portfolio-text {
@@ -630,7 +629,6 @@
     .home-grid {
       padding-top: 90px;
       grid-template-columns: 1fr;
-      padding-bottom: 5%;
       column-gap: 0;
       row-gap: 20px;
     }
@@ -787,6 +785,11 @@
     input::file-selector-button {
         width: 45%;
         }
+
+    .contact-grid a, .contact-grid p, .contact-grid span {
+      font-size: 0.5rem;
+      line-height: 0.7rem;
+    }
   }
   
   /* max-width 351 x 640 - small phone */
@@ -839,18 +842,9 @@
       .services-img img {
         width: 270px;
       }
-
-      .services-grid a {
-        font-size: 0.6rem;
-        line-height: 0.7rem;
-      }
-      
-      .services-grid p, .services-grid span {
-        font-size: 0.6rem;
-        line-height: 0.7rem;
-      }
-  }
+    }
   
+
   /* max-width 320 x 640 - very small phone */
   @media only screen and (max-width: 320px) {
     .logo a {
@@ -886,6 +880,11 @@
         width: 48%;
         font-size: 0.5rem;
         }
+    
+    .contact-grid a, .contact-grid p, .contact-grid span {
+      font-size: 0.5rem;
+      line-height: 0.7rem;
+    }
 
   }
   
@@ -921,6 +920,11 @@
       .services-img img {
         width: 90%;
       }
+
+      .contact-grid a, .contact-grid p, .contact-grid span {
+        font-size: 0.45rem;
+        line-height: 0.7rem;
+      }
   }
   
   /* max-width 268 to 237 - mini phone */
@@ -932,4 +936,9 @@
     footer p {
         font-size: 50%;
       }
+
+    .contact-grid a, .contact-grid p, .contact-grid span {
+      font-size: 0.35rem;
+      line-height: 0.7rem;
+    }
 }

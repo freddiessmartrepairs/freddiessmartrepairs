@@ -37,6 +37,7 @@ body {
   min-height: 100dvh;
   width: 100%;
   scroll-margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 .home, .portfolio, .contact-us {
@@ -408,7 +409,6 @@ video {
   margin-top: 2%;
   align-items: center;
   text-align: center;
-  padding-bottom: 2%;
 }
 
 .contact-text {
